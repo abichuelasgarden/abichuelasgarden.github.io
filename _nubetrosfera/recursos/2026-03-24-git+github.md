@@ -1,7 +1,7 @@
 ---
-layout: nubetrosfera
+layout: nube-post
 title: "¡Bienvenidos a Nubetrosfera!"
-category: blog
+category: recursos
 date: 2026-04-02
 description: "Un sitio de divulgación de la ciencia y recursos didácticos"
 ---

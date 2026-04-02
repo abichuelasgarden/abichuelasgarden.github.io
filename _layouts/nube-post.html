@@ -14,7 +14,11 @@ layout: null
         .content { margin-top: 50px; font-size: 1.15rem; text-align: justify; }
         .content h2 { color: #514E94; margin-top: 40px; border-bottom: 1px solid #eee; }
         .download-box { background: #f9f9f9; border: 1px dashed #3A5F44; padding: 20px; margin: 30px 0; border-radius: 8px; }
+        footer { margin-top: 80px; text-align: center; padding-bottom: 40px; }
+        .back-link { color: #3A5F44; font-weight: bold; text-decoration: none; border: 1px solid #3A5F44; padding: 10px 20px; border-radius: 5px; transition: 0.3s; }
+        .back-link:hover { background: #3A5F44; color: white; }
     </style>
+    <link href="https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400;0,700;1,400&display=swap" rel="stylesheet">
 </head>
 <body>
     <article>
@@ -26,8 +30,8 @@ layout: null
             {{ content }}
         </div>
         
-        <footer style="margin-top:80px; text-align:center;">
-            <a href="{{ site.baseurl }}/nubetrosfera.html" style="color: #3A5F44; font-weight:bold;">← Volver a Nubetrosfera</a>
+        <footer>
+            <a href="{{ site.baseurl }}/nubetrosfera.html" class="back-link">← Volver a Nubetrosfera</a>
         </footer>
     </article>
 </body>

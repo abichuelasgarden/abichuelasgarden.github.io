@@ -1,5 +1,5 @@
 ---
-layout: nubetrosfera
+layout: nube-post
 title: "¡Bienvenidos a Nubetrosfera!"
 category: recursos
 date: 2026-04-02
