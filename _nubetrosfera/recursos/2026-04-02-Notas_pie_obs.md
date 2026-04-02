@@ -1,10 +1,9 @@
-
 ---
-layout: post
-title: "Las notas al pie de obsidian"
+layout: nubetrosfera
+title: "¡Bienvenidos a Nubetrosfera!"
+category: recursos
 date: 2026-04-02
-categories: recursos
-image: assets/images/code.jpg
+description: "Un sitio de divulgación de la ciencia y recursos didácticos"
 ---
 
 # Notas al pie en [[Markdown]] usando #Obsidian

@@ -1,9 +1,9 @@
 ---
-layout: post
-title: "Bienvenida al sitio"
-date: 2026-03-24
-categories: blog
-image: assets/images/DSCN0282.JPG
+layout: nubetrosfera
+title: "¡Bienvenidos a Nubetrosfera!"
+category: blog
+date: 2026-04-02
+description: "Un sitio de divulgación de la ciencia y recursos didácticos"
 ---
 
 Hoy es un día importante. Después de mucho tiempo al fin he podido aterrizar y presentar **Nubetrosfera**. Consideraría que es mi hijo el mayor, el que más tiempo me he tomado para cuidar y darle todo el amor que tengo a la ciencia. Comenzó la idea hace más o menos cuatro años, en un principio tuvo otra cara y hasta otro nombre, pero tuvieron que pasar muchos días y en esos días muchos sucesos diferentes para que por fin puediera verse cómo lo ves ahora. 

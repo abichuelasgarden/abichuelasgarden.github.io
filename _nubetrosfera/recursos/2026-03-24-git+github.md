@@ -1,9 +1,9 @@
 ---
-layout: post
-title: "¿Cómo crear un repositorio en Git y subirlo a GitHub?"
-date: 2026-03-24
-categories: recursos
-image: assets/images/code.jpg
+layout: nubetrosfera
+title: "¡Bienvenidos a Nubetrosfera!"
+category: blog
+date: 2026-04-02
+description: "Un sitio de divulgación de la ciencia y recursos didácticos"
 ---
 
 Sé que no soy la única que cuando trabaja proyectos de investigación tiene como 5 archivos distintos y cada uno es una versión mejorada de la anterior, sobre todo cuando se trabaja con códigos de programación. Al cabo de unas semanas aquello llega a ser un desastre y no sabes en qué versión hiciste qué.

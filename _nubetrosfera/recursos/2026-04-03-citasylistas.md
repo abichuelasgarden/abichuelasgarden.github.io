@@ -1,9 +1,9 @@
 ---
-layout: post
-title: "Citas y listas en Obsidian"
-date: 2026-04-03
-categories: recursos
-image: https://www.todayonmac.com/content/images/2025/02/Group-3146.png
+layout: nubetrosfera
+title: "¡Bienvenidos a Nubetrosfera!"
+category: recursos
+date: 2026-04-02
+description: "Un sitio de divulgación de la ciencia y recursos didácticos"
 ---
 
 # Sintáxis de citas en [[Markdown]]

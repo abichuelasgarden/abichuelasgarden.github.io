@@ -1,9 +1,9 @@
 ---
-layout: post
-title: "Primeros pasos en Obsidian: Markdown"
-date: 2026-04-01
-categories: recursos
-image: https://www.linuxadictos.com/wp-content/uploads/Markdown.png
+layout: nubetrosfera
+title: "¡Bienvenidos a Nubetrosfera!"
+category: recursos
+date: 2026-04-02
+description: "Un sitio de divulgación de la ciencia y recursos didácticos"
 ---
 
 

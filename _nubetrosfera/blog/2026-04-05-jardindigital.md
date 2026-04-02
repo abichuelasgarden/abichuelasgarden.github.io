@@ -1,9 +1,9 @@
 ---
-layout: post
-title: "¿Qué es un jardín digital?"
-date: 2026-04-05
-categories: recursos
-image: assets/images/digital_garden.jpg
+layout: nubetrosfera
+title: "¡Bienvenidos a Nubetrosfera!"
+category: blog
+date: 2026-04-02
+description: "Un sitio de divulgación de la ciencia y recursos didácticos"
 ---
 
 ### Sitios que consulté

@@ -1,9 +1,9 @@
 ---
-layout: post
-title: "Primeros pasos en Notion"
-date: 2026-03-30
-categories: recursos
-image: https://unifranz.edu.bo/wp-content/uploads/2025/05/BLOG-NOTION-FOTO-1.png
+layout: nubetrosfera
+title: "¡Bienvenidos a Nubetrosfera!"
+category: recursos
+date: 2026-04-02
+description: "Un sitio de divulgación de la ciencia y recursos didácticos"
 ---
 
 # ¿Qué es Notion?
