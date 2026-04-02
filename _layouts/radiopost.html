@@ -1,0 +1,67 @@
+---
+layout: null
+---
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>{{ page.title }} | Radiocumulus</title>
+    <style>
+        body { background-color: #f4f1ea; font-family: 'Times New Roman', Times, serif; padding: 50px 20px; line-height: 1.6; }
+        .newspaper-article { max-width: 850px; margin: 0 auto; background: #fff; padding: 40px; box-shadow: 0 0 20px rgba(0,0,0,0.05); border: 1px solid #ddd; }
+        
+        header { text-align: center; border-bottom: 3px double #333; margin-bottom: 30px; }
+        header h1 { font-size: 2.5rem; margin-bottom: 10px; font-weight: bold; text-transform: uppercase; }
+        .meta-line { font-style: italic; font-size: 0.9rem; margin-bottom: 15px; color: #555; }
+
+        /* Contenedor del video y guion */
+        .article-content { display: block; overflow: hidden; }
+        
+        .video-container { 
+            float: right; /* Lo pone en la esquina */
+            width: 350px; 
+            margin-left: 20px; 
+            margin-bottom: 20px;
+            background: #eee;
+            padding: 5px;
+            border: 1px solid #ccc;
+        }
+        .video-wrapper { position: relative; padding-bottom: 56.25%; height: 0; }
+        .video-wrapper iframe { position: absolute; top: 0; left: 0; width: 100%; height: 100%; border: 0; }
+
+        .script-text { text-align: justify; font-size: 1.1rem; }
+        .script-text p { margin-top: 0; }
+
+        /* Estilo para los diálogos del guion */
+        blockquote { border-left: 4px solid #3A5F44; padding-left: 15px; margin: 20px 0; font-style: italic; color: #444; }
+    </style>
+</head>
+<body>
+    <div class="newspaper-article">
+        <header>
+            <p style="font-size: 0.8rem; letter-spacing: 2px;">EDICIÓN ESPECIAL RADIOCUMULUS</p>
+            <h1>{{ page.title }}</h1>
+            <div class="meta-line">
+                Por: {{ page.author | default: "Dani López" }} | 📍 {{ page.lugar }} | 📅 {{ page.date | date: "%B %d, %Y" }}
+            </div>
+        </header>
+
+        <div class="article-content">
+            <div class="video-container">
+                <div class="video-wrapper">
+                    <iframe src="https://www.youtube.com/embed/{{ page.youtube_id }}" allowfullscreen></iframe>
+                </div>
+                <p style="font-size: 0.7rem; text-align: center; margin-top: 5px;">VER VIDEO COMPLETO ↑</p>
+            </div>
+
+            <div class="script-text">
+                {{ content }}
+            </div>
+        </div>
+        
+        <footer style="margin-top: 50px; border-top: 1px solid #eee; padding-top: 20px; text-align: center;">
+            <a href="{{ site.baseurl }}/radiocumulus.html" style="color: #C87459; text-decoration: none; font-weight: bold;">← Volver a la lista de episodios</a>
+        </footer>
+    </div>
+</body>
+</html>
