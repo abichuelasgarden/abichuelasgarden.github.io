@@ -2,7 +2,7 @@
 layout: null
 title: Mi Álbum de Postales
 ---
-<!-- <!DOCTYPE html> -->
+<!-- <!-- <!DOCTYPE html> --> -->
 <html lang="es">
 <head>
     <meta charset="UTF-8">
