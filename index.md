@@ -2,7 +2,7 @@
 layout: null
 title: Abichuela's Garden 🌱
 ---
-<!DOCTYPE html>
+<!-- <!DOCTYPE html> -->
 <html lang="es">
 <head>
     <meta charset="UTF-8">
@@ -111,8 +111,6 @@ title: Abichuela's Garden 🌱
     </style>
 </head>
 <body>
-
-    <img src="https://png.pngtree.com/png-vector/20241030/ourmid/pngtree-hanging-green-vines-with-heart-shaped-leaves-png-image_14168939.png" alt="Enredaderas colgantes" class="vines-header">
 
     <h1>Abichuela's Garden</h1>
     
