@@ -1,7 +1,5 @@
----
-title: Abichuela´s garden
-description: Otro jardín digital de un pony de varios trucos.
-#remote_theme: jekyll/minima
+title: "Abichuela's Garden"
+description: "Otro jardín digital de un pony de varios trucos."
 theme: null
 
 # Plugins necesarios para que GitHub Pages no se confunda
@@ -10,11 +8,24 @@ plugins:
   - jekyll-feed
   - jekyll-seo-tag
 
+# Esto genera el menú automático si usas un tema, pero como estamos haciendo algo 
+# muy personalizado, lo mantendremos por si acaso.
 header_pages:
   - galeria.md
   - radiocumulus.md
   - nubetrosfera.md
 
-baseurl: "" # Déjalo vacío
-#url: "https://nubetrosfera.github.io"
----
+baseurl: "" 
+url: "https://abichuelasgarden.github.io" # ¡No olvides actualizar esto!
+
+# Tus colecciones (tus "invernaderos" especializados)
+collections:
+  galeria:
+    output: true
+    permalink: /galeria/:path/
+  radiocumulus:
+    output: true
+    permalink: /radiocumulus/:path/
+  nubetrosfera:
+    output: true
+    permalink: /nubetrosfera/:path/

@@ -1,0 +1,34 @@
+---
+layout: default
+---
+<div class="postal-frame">
+  <div class="postal-image">
+    {{ content }} </div>
+  <div class="postal-back">
+    <h2 class="postal-title">{{ page.title }}</h2>
+    <div class="postal-meta">
+      <p>📍 {{ page.lugar }}</p>
+      <p>📅 {{ page.date | date: "%d/%m/%Y" }}</p>
+    </div>
+    <div class="postal-stamp"></div>
+  </div>
+</div>
+
+<style>
+.postal-frame {
+  background: #fff;
+  padding: 20px;
+  box-shadow: 8px 8px 20px rgba(0,0,0,0.1);
+  max-width: 500px;
+  margin: 40px auto;
+  border: 1px solid #eee;
+}
+.postal-image img { width: 100%; height: auto; display: block; }
+.postal-title { font-family: 'Georgia', serif; color: #3A5F44; border: none; margin-top: 15px; }
+.postal-meta { font-style: italic; color: #C87459; font-size: 0.9em; }
+.postal-stamp {
+  width: 60px; height: 70px;
+  border: 2px dashed #D6CDBA;
+  float: right; margin-top: -50px;
+}
+</style>
