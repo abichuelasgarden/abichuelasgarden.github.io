@@ -112,7 +112,7 @@ title: Abichuela's Garden 🌱
 </head>
 <body>
 
-    <img src="https://i.imgur.com/vH9Z6XN.png" alt="Enredaderas colgantes" class="vines-header">
+    <img src="https://png.pngtree.com/png-vector/20241030/ourmid/pngtree-hanging-green-vines-with-heart-shaped-leaves-png-image_14168939.png" alt="Enredaderas colgantes" class="vines-header">
 
     <h1>Abichuela's Garden</h1>
     
