@@ -1,9 +1,9 @@
 ---
 layout: nube-post
-title: "¡Bienvenidos a Nubetrosfera!"
+title: "Citas y listas en Markdown"
 category: recursos
-date: 2026-04-02
-description: "Un sitio de divulgación de la ciencia y recursos didácticos"
+date: 2026-04-01
+description: "Insito, en que Markdown será tu nuevo mejor amigo"
 ---
 
 # Sintáxis de citas en [[Markdown]]

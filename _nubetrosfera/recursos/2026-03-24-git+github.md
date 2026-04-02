@@ -1,9 +1,9 @@
 ---
 layout: nube-post
-title: "¡Bienvenidos a Nubetrosfera!"
+title: "¿Cómo crear un repo en Git y subirlo a GitHub?"
 category: recursos
-date: 2026-04-02
-description: "Un sitio de divulgación de la ciencia y recursos didácticos"
+date: 2026-03-29
+description: "Para no tener 20 versiones de un mismo archivo regados en la computadora, aprenderemos cómo usar los repos de Git"
 ---
 
 Sé que no soy la única que cuando trabaja proyectos de investigación tiene como 5 archivos distintos y cada uno es una versión mejorada de la anterior, sobre todo cuando se trabaja con códigos de programación. Al cabo de unas semanas aquello llega a ser un desastre y no sabes en qué versión hiciste qué.

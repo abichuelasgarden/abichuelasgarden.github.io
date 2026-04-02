@@ -1,9 +1,9 @@
 ---
 layout: nube-post
-title: "¡Bienvenidos a Nubetrosfera!"
+title: "Notas al pie en Obsidian"
 category: recursos
 date: 2026-04-02
-description: "Un sitio de divulgación de la ciencia y recursos didácticos"
+description: "Otro apunte de cómo usar el markdown de Obsidian"
 ---
 
 # Notas al pie en [[Markdown]] usando #Obsidian

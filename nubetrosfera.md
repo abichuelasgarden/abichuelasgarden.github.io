@@ -9,7 +9,7 @@ title: Nubetrosfera
     <title>Nubetrosfera | Divulgación Atmosférica</title>
     <style>
         body { background-color: #fdfdfd; font-family: 'Lora', serif; margin: 0; padding: 0; color: #1a1a1a; }
-        .header-nube { background: #3A5F44; color: white; padding: 60px 20px; text-align: center; }
+        .header-nube { background: #202a44; color: white; padding: 60px 20px; text-align: center; }
         .container { max-width: 900px; margin: 0 auto; padding: 40px 20px; }
         
         /* Navegación de Secciones */

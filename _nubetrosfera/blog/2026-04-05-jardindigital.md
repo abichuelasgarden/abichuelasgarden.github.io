@@ -1,9 +1,9 @@
 ---
 layout: nube-post
-title: "¡Bienvenidos a Nubetrosfera!"
+title: "¿Qué es un jardín digital?"
 category: blog
-date: 2026-04-02
-description: "Un sitio de divulgación de la ciencia y recursos didácticos"
+date: 2026-03-28
+description: "Si estás cansado de redes sociales y un scroll que jamás acaba, tal vez esto te interese"
 ---
 
 ### Sitios que consulté

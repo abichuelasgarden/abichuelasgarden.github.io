@@ -1,9 +1,9 @@
 ---
 layout: nube-post
-title: "¡Bienvenidos a Nubetrosfera!"
+title: "Primeros pasos en Obisidian"
 category: recursos
 date: 2026-04-02
-description: "Un sitio de divulgación de la ciencia y recursos didácticos"
+description: "Crea tu segundo cerebro con Obsidian (por cierto, es gratis)"
 ---
 
 

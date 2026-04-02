@@ -1,9 +1,9 @@
 ---
 layout: nube-post
-title: "¡Bienvenidos a Nubetrosfera!"
+title: "Primero pasos en Notion, ¿Qué es eso?"
 category: recursos
-date: 2026-04-02
-description: "Un sitio de divulgación de la ciencia y recursos didácticos"
+date: 2026-03-29
+description: "Desde imágenes hasta bases de datos, Notion es un montón de legos vivientes"
 ---
 
 # ¿Qué es Notion?
