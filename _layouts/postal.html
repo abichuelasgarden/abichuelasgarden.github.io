@@ -1,34 +1,153 @@
 ---
-layout: default
+layout: null
 ---
-<div class="postal-frame">
-  <div class="postal-image">
-    {{ content }} </div>
-  <div class="postal-back">
-    <h2 class="postal-title">{{ page.title }}</h2>
-    <div class="postal-meta">
-      <p>📍 {{ page.lugar }}</p>
-      <p>📅 {{ page.date | date: "%d/%m/%Y" }}</p>
-    </div>
-    <div class="postal-stamp"></div>
-  </div>
-</div>
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>{{ page.title }} | Abichuela's Garden</title>
+    <link href="https://fonts.googleapis.com/css2?family=Reenie+Beanie&display=swap" rel="stylesheet">
+    <style>
+        /* --- FONDO DE LA ESCENA (Pared de piedra cálida) --- */
+        body {
+            margin: 0;
+            padding: 50px 20px;
+            /* Usamos un color base cálido mientras carga la textura */
+            background-color: #D6CDBA; 
+            /* Textura de piedra sutil (puedes cambiar esta URL por una tuya si prefieres) */
+            background-image: url('https://www.transparenttextures.com/patterns/dark-brick-wall.png');
+            font-family: 'Georgia', serif;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            min-height: 100vh;
+        }
 
-<style>
-.postal-frame {
-  background: #fff;
-  padding: 20px;
-  box-shadow: 8px 8px 20px rgba(0,0,0,0.1);
-  max-width: 500px;
-  margin: 40px auto;
-  border: 1px solid #eee;
-}
-.postal-image img { width: 100%; height: auto; display: block; }
-.postal-title { font-family: 'Georgia', serif; color: #3A5F44; border: none; margin-top: 15px; }
-.postal-meta { font-style: italic; color: #C87459; font-size: 0.9em; }
-.postal-stamp {
-  width: 60px; height: 70px;
-  border: 2px dashed #D6CDBA;
-  float: right; margin-top: -50px;
-}
-</style>
+        /* --- ENVOLTORIO GENERAL DE LA POSTAL (Para centrarlas) --- */
+        .postal-container {
+            max-width: 650px; /* Ancho similar a la referencia */
+            width: 100%;
+            display: flex;
+            flex-direction: column;
+            gap: 40px; /* Espacio entre las dos caras */
+        }
+
+        /* --- ESTILOS COMUNES PARA AMBAS CARAS --- */
+        .postal-face {
+            background-color: #F3EBE1; /* Papel kraft/beige envejecido */
+            padding: 30px;
+            box-shadow: 10px 10px 25px rgba(0,0,0,0.2); /* Sombra dramática */
+            border-radius: 2px;
+            position: relative; /* Para posicionar el sello */
+        }
+
+        /* --- 1. CARA TRASERA (El Mensaje) --- */
+        .postal-back {
+            display: grid;
+            grid-template-columns: 1fr 1fr; /* Dividida en dos columnas */
+            gap: 20px;
+            color: #5C5441; /* Marrón sepia oscuro */
+        }
+
+        /* Línea divisoria central */
+        .postal-back::after {
+            content: '';
+            position: absolute;
+            top: 15%;
+            left: 50%;
+            height: 70%;
+            width: 1px;
+            background-color: rgba(92, 84, 65, 0.3);
+        }
+
+        /* Columna Izquierda (Mensaje) */
+        .message-area {
+            font-family: 'Reenie Beanie', cursive; /* Fuente manuscrita */
+            font-size: 1.6rem;
+            line-height: 1.2;
+            padding-right: 20px;
+        }
+
+        /* Columna Derecha (Datos y Sello) */
+        .details-area {
+            padding-left: 20px;
+            display: flex;
+            flex-direction: column;
+            justify-content: flex-end; /* Alinea los textos abajo */
+        }
+
+        .stamp-area {
+            position: absolute;
+            top: 20px;
+            right: 20px;
+            width: 70px;
+            height: 85px;
+            /* Imagen de sello postal antiguo (Referencia) */
+            background-image: url('https://i.imgur.com/8N4U0oH.png'); 
+            background-size: cover;
+            opacity: 0.8;
+        }
+
+        .data-line {
+            font-size: 0.9rem;
+            margin: 5px 0;
+            border-bottom: 1px solid rgba(92, 84, 65, 0.2); /* Línea de puntos/subrayado */
+            padding-bottom: 3px;
+        }
+
+        /* --- 2. CARA DELANTERA (La Foto) --- */
+        .postal-front {
+            padding: 15px; /* Marco blanco fino alrededor de la foto */
+            background-color: #fff; /* Marco blanco puro */
+        }
+
+        .postal-front img {
+            width: 100%;
+            height: auto;
+            display: block;
+        }
+
+        /* --- BOTÓN VOLVER --- */
+        .back-btn {
+            text-decoration: none;
+            color: #fff;
+            background-color: rgba(0,0,0,0.5);
+            padding: 10px 20px;
+            border-radius: 50px;
+            margin-bottom: 30px;
+            font-size: 0.9rem;
+            transition: background 0.3s;
+        }
+        .back-btn:hover { background-color: rgba(0,0,0,0.8); }
+
+    </style>
+</head>
+<body>
+
+    <a href="{{ site.baseurl }}/galeria.html" class="back-btn">← Volver al Álbum</a>
+
+    <div class="postal-container">
+
+        <div class="postal-face postal-back">
+            
+            <div class="stamp-area"></div>
+
+            <div class="message-area">
+                {{ content }} </div>
+
+            <div class="details-area">
+                <p class="data-line"><strong>From:</strong> Abichuela 🌱</p>
+                <p class="data-line"><strong>To:</strong> {{ page.lugar }}</p>
+                <p class="data-line"><em>{{ page.date | date: "%B %d, %Y" }}</em></p>
+            </div>
+        </div>
+
+        <div class="postal-face postal-front">
+            <img src="{{ page.imagen }}" alt="{{ page.title }}">
+        </div>
+
+    </div>
+
+</body>
+</html>
